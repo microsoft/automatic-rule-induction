@@ -26,11 +26,11 @@ Other datasets can be obtained (here)[https://drive.google.com/drive/folders/1v5
 
 ## Code Overview
 
-`main.py`: main entrypoint for code
-`utils.py`: utility functions for `main.py`
-`autorule_generator.py`: generating the rules.
-`autorule_model.py`: integrating the rules with pretrained a pretrained model.
-`wrench/`: a lightly modified clone of the the (wrench)[https://github.com/JieyuZ2/wrench] framework repo.
+* `main.py`: main entrypoint for code
+* `utils.py`: utility functions for `main.py`
+* `autorule_generator.py`: generating the rules.
+* `autorule_model.py`: integrating the rules with pretrained a pretrained model.
+* `wrench/`: a lightly modified clone of the the (wrench)[https://github.com/JieyuZ2/wrench] framework repo.
 
 
 ## Contributing
