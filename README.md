@@ -3,7 +3,7 @@
 
 This repo contains an implementation of the Automatic Rule Induction framework. See the paper for details: [TODO ARXIV LINK].
 
-This repo builds off of the (Wrench)[https://github.com/JieyuZ2/wrench] weak supervision benchmark.
+This repo builds off of the [Wrench](https://github.com/JieyuZ2/wrench) weak supervision benchmark.
 
 
 ## Quickstart
@@ -21,7 +21,7 @@ python main.py
 
 To see all available arguments, run `python main.py --help`.
 
-Other datasets can be obtained (here)[https://drive.google.com/drive/folders/1v55IKG2JN9fMtKJWU48B_5_DcPWGnpTq] (datasets.zip). After downloading, point the `--data_root` flag at the unzipped directory.
+Other datasets can be obtained [here](https://drive.google.com/drive/folders/1v55IKG2JN9fMtKJWU48B_5_DcPWGnpTq) (datasets.zip). After downloading, point the `--data_root` flag at the unzipped directory.
 
 
 ## Code Overview
@@ -30,7 +30,7 @@ Other datasets can be obtained (here)[https://drive.google.com/drive/folders/1v5
 * `utils.py`: utility functions for `main.py`
 * `autorule_generator.py`: generating the rules.
 * `autorule_model.py`: integrating the rules with pretrained a pretrained model.
-* `wrench/`: a lightly modified clone of the the (wrench)[https://github.com/JieyuZ2/wrench] framework repo.
+* `wrench/`: a lightly modified clone of the the [wrench](https://github.com/JieyuZ2/wrench) framework repo.
 
 
 ## Contributing
