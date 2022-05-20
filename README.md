@@ -1,7 +1,7 @@
 
 # Automatic Rule Induction
 
-This repo contains an implementation of the Automatic Rule Induction framework presented in "[Automatic Rule Induction for Efficient Semi-Supervised Learning
+This repo contains an implementation of the Automatic Rule Induction (ARI) framework as presented in "[Automatic Rule Induction for Efficient Semi-Supervised Learning
 ](https://arxiv.org/pdf/2205.09067.pdf)"
 
 This repo builds off of the [Wrench](https://github.com/JieyuZ2/wrench) weak supervision benchmark.
