@@ -332,7 +332,7 @@ class AutoRuleGenerator:
 
     def report_rules(self):
         assert self.trained
-        if self.feature_type in {'ngram', 'ngram-tree', 'ngram-pca'}:
+        if self.feature_type in {'ngram', 'ngram-tree', 'ngram-pca', 'tree-pca'}:
             return self.rule_strs
         else:
             raise NotImplementedError
